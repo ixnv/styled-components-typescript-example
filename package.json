@@ -7,7 +7,9 @@
     "build:dev": "webpack --config=config/webpack.config.dev.js",
     "lint": "npx tslint -p .",
     "watch": "webpack --config=config/webpack.config.dev.js --watch",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -30,10 +32,19 @@
   },
   "devDependencies": {
     "@types/chrome": "0.0.83",
+    "@types/enzyme": "^3.9.2",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/enzyme-to-json": "^1.5.3",
+    "@types/jest": "^24.0.13",
     "@types/react-redux": "^7.0.9",
     "awesome-typescript-loader": "^5.2.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "enzyme-to-json": "^3.3.5",
     "fork-ts-checker-webpack-plugin": "^1.0.2",
+    "jest": "^24.8.0",
     "source-map-loader": "^0.2.4",
+    "ts-jest": "^24.0.2",
     "tslint": "^5.15.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-loader": "^3.5.4",
