@@ -23,20 +23,18 @@
   },
   "homepage": "https://github.com/ixnv/styled-components-example#readme",
   "dependencies": {
-    "@types/react": "^16.8.13",
-    "@types/react-dom": "^16.8.4",
-    "@types/styled-components": "^4.1.15",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
-    "@types/chrome": "0.0.83",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "@types/styled-components": "^4.1.15",
     "@types/enzyme": "^3.9.2",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/enzyme-to-json": "^1.5.3",
     "@types/jest": "^24.0.13",
-    "@types/react-redux": "^7.0.9",
     "awesome-typescript-loader": "^5.2.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.13.1",
