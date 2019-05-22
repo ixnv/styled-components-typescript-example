@@ -1,5 +1,5 @@
 import * as React from 'react'
-import styled, {Keyframes, keyframes} from "styled-components";
+import styled, {Keyframes, keyframes} from 'styled-components'
 
 type LoaderProps = {
     show: boolean
@@ -78,4 +78,4 @@ const LoaderComponent: React.FC<LoaderProps> = ({show}: LoaderProps) => (
     </Wrapper>
 )
 
-export default LoaderComponent;
+export default LoaderComponent

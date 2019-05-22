@@ -1,6 +1,6 @@
 import * as React from 'react'
-import {useState} from 'react';
-import Loader from "./components/Loader";
+import {useState} from 'react'
+import Loader from './components/Loader'
 
 export const App: React.FC = () => {
     const [show, toggle] = useState(false)
