@@ -2,7 +2,7 @@
   "name": "styled-components-example",
   "version": "1.0.0",
   "description": "",
-  "main": "hot-reload.js",
+  "main": "index.tsx",
   "scripts": {
     "build:dev": "webpack --config=config/webpack.config.dev.js",
     "lint": "npx tslint -p .",
@@ -26,8 +26,6 @@
     "@types/styled-components": "^4.1.15",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-redux": "^7.0.3",
-    "redux": "latest",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
