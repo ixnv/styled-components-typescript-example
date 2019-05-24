@@ -10,5 +10,5 @@ after_success:
   - codecov -f coverage/*.json
 script:
   - npm install codecov -g
-  - npm test --coverage
+  - npm run test:coverage
   - npm run build:dev
