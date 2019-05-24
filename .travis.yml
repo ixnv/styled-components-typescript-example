@@ -1,9 +1,14 @@
+git:
+  quiet: true
 language: node_js
 node_js:
   - "stable"
 cache:
   directories:
     - node_modules
+after_success:
+  - codecov
 script:
+  - npm install codecov -g
   - npm test
   - npm run build:dev
